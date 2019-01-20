@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-	cout << "Enter your first name. " << endl;	//Output promtps user's first name
+	cout << "Enter your first name. " << endl;	//Output prompts user's first name
 	string first_name;						//Create the first_name variable
 	cin >> first_name;						//take inputed characters and read into first_name
-	cout << "Enter your last name." << endl;	//Promt user to input last name
+	cout << "Enter your last name." << endl;	//Prompt user to input last name
 	string last_name;						//Creates last_name variable
 	cin >> last_name;						//reads inputed characters to last_name
-	cout << "Enter your age." << endl;		//Promt user to input age
+	cout << "Enter your age." << endl;		//Prompt user to input age
 	int age;								//Creates the variable "age" (integer)
 	cin >> age;								//read inputed integer to variable "age"
 	cout << "How confident are you in programmers in percentage (0-100)" << endl;		//Prompt the user to input their confidence in programmers
